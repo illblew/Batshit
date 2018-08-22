@@ -15,7 +15,7 @@ def wordData():
         b.rotate(1)
 
 def randomLocation():
-    files = os.listdir("/var/")
+    files = os.listdir("/")
     index = random.randrange(0,len(files))
     return files[index]
 
